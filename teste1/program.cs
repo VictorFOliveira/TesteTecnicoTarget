@@ -2,18 +2,18 @@ using System;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         int indice = 13,
-            SOMA = 0,
-            K = 0;
+            soma = 0,
+            k = 0;
 
-        while (K < indice)
+        while (k < indice)
         {
-            K += 1;
-            SOMA += K;
+            k += 1;
+            soma += k;
         }
 
-        Console.WriteLine(SOMA); // O resultado é 91
+        Console.WriteLine(soma);  // O resultado é 91
     }
 }
